@@ -714,74 +714,14 @@
       }
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1100px) {
       body {
-        padding-left: 14px;
-        padding-right: 14px;
+        padding: 18px 10px 40px;
+        overflow-x: auto;
       }
 
-      .dock {
-        display: none;
-      }
-
-      .hero {
-        grid-template-columns: 1fr;
-      }
-
-      .hero-visual {
-        min-height: 290px;
-      }
-
-      .hero-figure {
-        inset: 8% 10% 12% 10%;
-      }
-
-      .stats {
-        grid-template-columns: repeat(2, minmax(130px, 1fr));
-      }
-
-      .skills-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .project-grid {
-        grid-template-columns: repeat(2, minmax(220px, 1fr));
-      }
-    }
-
-    @media (max-width: 640px) {
-      h1 {
-        font-size: clamp(40px, 17vw, 64px);
-      }
-
-      .meta {
-        grid-template-columns: 1fr;
-      }
-
-      .quick-nav {
-        width: calc(100% - 24px);
-        justify-content: space-between;
-      }
-
-      .quick-nav a {
-        padding: 8px 9px;
-        font-size: 12px;
-      }
-
-      .contact {
-        grid-template-columns: 1fr;
-      }
-
-      .contact-links {
-        justify-content: flex-start;
-      }
-
-      .contact-form {
-        grid-template-columns: 1fr;
-      }
-
-      .project-grid {
-        grid-template-columns: 1fr;
+      .layout {
+        min-width: 1080px;
       }
     }
   </style>
@@ -800,7 +740,7 @@
   <main class="layout">
     <section class="panel hero" id="home">
       <div class="hero-copy">
-        <span class="state"><i class="dot"></i>Disponible - Stage ete 2026</span>
+        <span class="state"><i class="dot"></i>Disponible</span>
         <p class="role">Ingenieure en Cybersecurite</p>
         <h1>Siwar<br>Mekni</h1>
         <p class="intro">Etudiante en 2e annee d'ingenierie informatique a TEK-UP, specialisee en audit de securite, pentest web/reseau, cryptographie appliquee et gestion des risques.</p>
